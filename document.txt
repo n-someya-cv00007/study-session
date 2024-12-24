@@ -24,3 +24,46 @@ drwxr-xr-x@ 2 nagi-someya  staff   64 12 24 14:13 dist
 drwxr-xr-x@ 9 nagi-someya  staff  288 12 24 09:59 js
 drwxr-xr-x@ 4 nagi-someya  staff  128 12 24 14:13 ts
 ---
+
+---
+次に、npm initでpackage.jsonを作成します。
+package.jsonは、プロジェクトの情報を記述するファイルです。
+このファイルには、プロジェクトの名前、バージョン、依存関係、スクリプトなどが記述されます。
+
+nagi-someya@creava-n-someyaMacBook-Pro study-session % npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (study-session)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to /Users/nagi-someya/practice/study-session/package.json:
+
+{
+  "name": "study-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+---
