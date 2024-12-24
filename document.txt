@@ -1,0 +1,26 @@
+コンパイルとは?
+
+---
+先ず、git initでgitを初期化します。
+これをすることで、リポジトリがgitの管理下に置かれることになります。
+
+nagi-someya@creava-n-someyaMacBook-Pro study-session % ls -la
+total 0
+drwxr-xr-x@ 6 nagi-someya  staff  192 12 24 14:15 .
+drwxr-xr-x  6 nagi-someya  staff  192 12 24 14:15 ..
+drwxr-xr-x@ 5 nagi-someya  staff  160 12 15 17:49 20241214
+drwxr-xr-x@ 2 nagi-someya  staff   64 12 24 14:13 dist
+drwxr-xr-x@ 9 nagi-someya  staff  288 12 24 09:59 js
+drwxr-xr-x@ 4 nagi-someya  staff  128 12 24 14:13 ts
+nagi-someya@creava-n-someyaMacBook-Pro study-session % git init
+Initialized empty Git repository in /Users/nagi-someya/practice/study-session/.git/
+nagi-someya@creava-n-someyaMacBook-Pro study-session % ls -la
+total 0
+drwxr-xr-x@ 7 nagi-someya  staff  224 12 24 14:16 .
+drwxr-xr-x  6 nagi-someya  staff  192 12 24 14:15 ..
+drwxr-xr-x@ 9 nagi-someya  staff  288 12 24 14:16 .git
+drwxr-xr-x@ 5 nagi-someya  staff  160 12 15 17:49 20241214
+drwxr-xr-x@ 2 nagi-someya  staff   64 12 24 14:13 dist
+drwxr-xr-x@ 9 nagi-someya  staff  288 12 24 09:59 js
+drwxr-xr-x@ 4 nagi-someya  staff  128 12 24 14:13 ts
+---
