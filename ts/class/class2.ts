@@ -67,3 +67,10 @@ class Name {
     }
 }
 
+const nameAlice = new Name('Alice'); // 名前のバリューオブジェクトを生成
+const ageAlice = new Age(29);       // 年齢のバリューオブジェクトを生成
+
+console.log('typeof nameAlice: ', typeof nameAlice);
+
+const person = Person2.create(nameAlice, ageAlice); // Person2 を生成
+console.log(person.greet());
