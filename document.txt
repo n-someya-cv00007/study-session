@@ -83,3 +83,20 @@ found 0 vulnerabilities
 touch .gitignore
 node_modules/と記述します。
 ---
+
+---
+tsconfig.jsonを作成します。
+touch tsconfig.json
+---
+
+---
+package.jsonにスクリプトを追加します。
+"scripts": {
+    "build": "tsc"
+  },
+---
+
+---
+npm run buildでコンパイルします。
+nagi-someya@creava-n-someyaMacBook-Pro study-session % npm run build
+---
