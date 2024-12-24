@@ -67,3 +67,19 @@ About to write to /Users/nagi-someya/practice/study-session/package.json:
 
 Is this OK? (yes)
 ---
+
+---
+次に、npm install typescript @types/nodeでTypeScriptをインストールします。
+
+nagi-someya@creava-n-someyaMacBook-Pro study-session % npm install typescript @types/node
+
+added 3 packages, and audited 4 packages in 4s
+
+found 0 vulnerabilities
+---
+
+---
+ファイル差分が大変なことになるので.gitignoreを作成します。
+touch .gitignore
+node_modules/と記述します。
+---
