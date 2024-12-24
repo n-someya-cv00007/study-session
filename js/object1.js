@@ -21,3 +21,5 @@ console.log('ogata', ogata.sayBotiboti());
 
 // nagi.friends = [ogata];
 // console.log('nagi', nagi);
+
+ogata.sayBotiboti();

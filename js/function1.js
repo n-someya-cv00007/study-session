@@ -8,6 +8,11 @@ const greet1 = function(name) {
     return `Hello, ${name}!`;
 };
 
+const a = greet1('nagi');
+const b = greet1('ogata');
+console.log(a);
+console.log(b);
+
 // アロー関数
 const greet2 = (name) => {
     return `Hello, ${name}!`;

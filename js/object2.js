@@ -17,7 +17,8 @@ const nagi = {
     ]
 }
 
-console.log('nagi', nagi);
+// Q1. nagiの趣味、読書をログ出力してください。
+console.log('nagi', nagi.hobbies[0]);
 
 const ogata = {
     name: 'ogata',
@@ -66,4 +67,4 @@ const ogata = {
     ]
 }
 
-console.log('ogata', ogata);
+console.log('ogata', ogata.exGirls[6].hobbies[0]);
