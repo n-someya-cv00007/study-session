@@ -1,6 +1,6 @@
 // privateとpublic、staticメソッドの使い方について説明する
 
-class Person {
+class Person1 {
     private name: string;
     private age: number;
     private isDead: boolean;
@@ -24,12 +24,12 @@ class Person {
     // フロントから渡ってきたデータをもとにインスタンスオブジェクトを生成する想定
     static create(name: string, age: number) {
         const isDead = false // フロントから渡ってきたデータを元に判定する
-        return new Person(name, age, isDead);
+        return new Person1(name, age, isDead);
     }
 
     // DBから取得してきたデータをもとにインスタンスオブジェクトを生成する想定
     static fromDB(data: {name: string, age: number, isDead: boolean}) {
-        return new Person(data.name, data.age, data.isDead);
+        return new Person1(data.name, data.age, data.isDead);
     }
 
     greet(): string {
@@ -40,5 +40,5 @@ class Person {
 // クラスの外からnew演算子を使ってインスタンス化しようとするとコンパイルエラーになる
 // const nagi = new Person('nagi', 26, false);
 
-const Alice = Person.create('Alice', 29); // 静的メソッド
+const Alice = Person1.create('Alice', 29); // 静的メソッド
 console.log(Alice.greet());

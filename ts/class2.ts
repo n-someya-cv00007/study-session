@@ -1,6 +1,6 @@
 // value objectの例
 
-class Person {
+class Person2 {
     private name: Name;
     private age: Age;
     private isDead: boolean;
@@ -14,12 +14,12 @@ class Person {
     // フロントから渡ってきたデータをもとにインスタンスオブジェクトを生成する想定
     static create(name: Name, age: Age) {
         const isDead = false // フロントから渡ってきたデータを元に判定する
-        return new Person(name, age, isDead);
+        return new Person2(name, age, isDead);
     }
 
     // DBから取得してきたデータをもとにインスタンスオブジェクトを生成する想定
     static fromDB(data: {name: Name, age: Age, isDead: boolean}) {
-        return new Person(data.name, data.age, data.isDead);
+        return new Person2(data.name, data.age, data.isDead);
     }
 
     greet(): string {
