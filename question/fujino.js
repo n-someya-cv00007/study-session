@@ -13,3 +13,15 @@ const someya = function(name,year){
 
 const b = someya('nagi',24)
 console.log(b)
+
+// Q3.
+
+
+const person = {
+    name: 'fujino',
+    age: 22,
+    hobbies: ['読書', 'カラオケ']
+}
+
+// Q3. personオブジェクトを引数に渡して自己紹介ができる関数を作ってください。
+
