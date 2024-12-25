@@ -24,4 +24,8 @@ const person = {
 }
 
 // Q3. personオブジェクトを引数に渡して自己紹介ができる関数を作ってください。
+const fujino = function(person){
+    return `I'm ${person.name}. I'm ${person.age} years old. My hobby is ${person.hobbies[0]}`
+}
 
+console.log(fujino(person))
